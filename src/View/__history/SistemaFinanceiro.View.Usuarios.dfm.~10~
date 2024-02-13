@@ -1,0 +1,62 @@
+inherited frmUsuarios: TfrmUsuarios
+  Caption = 'Cadastro de Usu'#225'rios'
+  StyleElements = [seFont, seClient, seBorder]
+  TextHeight = 21
+  inherited pnlPrincipal: TCardPanel
+    StyleElements = [seFont, seClient, seBorder]
+    inherited CardCadastro: TCard
+      StyleElements = [seFont, seClient, seBorder]
+      inherited Panel1: TPanel
+        StyleElements = [seFont, seClient, seBorder]
+      end
+    end
+    inherited CardPesquisa: TCard
+      StyleElements = [seFont, seClient, seBorder]
+      inherited pnlPesquisa: TPanel
+        StyleElements = [seFont, seClient, seBorder]
+        inherited Label1: TLabel
+          StyleElements = [seFont, seClient, seBorder]
+        end
+        inherited edtPesquisar: TEdit
+          StyleElements = [seFont, seClient, seBorder]
+        end
+        inherited btnPesquisar: TButton
+          OnClick = btnPesquisarClick
+        end
+      end
+      inherited pnlPesquisaBotoes: TPanel
+        StyleElements = [seFont, seClient, seBorder]
+      end
+      inherited pnlGrid: TPanel
+        StyleElements = [seFont, seClient, seBorder]
+        inherited DBGrid1: TDBGrid
+          DataSource = DataSource1
+          Columns = <
+            item
+              Expanded = False
+              FieldName = 'nome'
+              Title.Caption = 'Nome'
+              Width = 366
+              Visible = True
+            end
+            item
+              Expanded = False
+              FieldName = 'login'
+              Title.Caption = 'Login'
+              Width = 159
+              Visible = True
+            end
+            item
+              Expanded = False
+              FieldName = 'status'
+              Title.Caption = 'Status'
+              Visible = True
+            end>
+        end
+      end
+    end
+  end
+  inherited DataSource1: TDataSource
+    DataSet = dmUsuarios.cdsUsuarios
+  end
+end

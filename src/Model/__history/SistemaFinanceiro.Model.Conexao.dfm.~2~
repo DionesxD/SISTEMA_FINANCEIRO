@@ -1,0 +1,15 @@
+object DataModule1: TDataModule1
+  Height = 480
+  Width = 640
+  object SQLConexao: TFDConnection
+    Params.Strings = (
+      
+        'Database=D:\.SSD Part 2\Codes\SISTEMA_FINANCEIRO\db\SistemaFinan' +
+        'ceiro.db'
+      'DriverID=SQLite')
+    Connected = True
+    LoginPrompt = False
+    Left = 112
+    Top = 112
+  end
+end

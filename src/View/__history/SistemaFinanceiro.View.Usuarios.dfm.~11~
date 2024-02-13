@@ -1,0 +1,124 @@
+inherited frmUsuarios: TfrmUsuarios
+  Caption = 'Cadastro de Usu'#225'rios'
+  StyleElements = [seFont, seClient, seBorder]
+  TextHeight = 21
+  inherited pnlPrincipal: TCardPanel
+    ActiveCard = CardPesquisa
+    StyleElements = [seFont, seClient, seBorder]
+    inherited CardCadastro: TCard
+      StyleElements = [seFont, seClient, seBorder]
+      ExplicitLeft = 2
+      ExplicitTop = 25
+      object Label2: TLabel [0]
+        Left = 36
+        Top = 67
+        Width = 46
+        Height = 21
+        Caption = 'Nome:'
+      end
+      object Label3: TLabel [1]
+        Left = 344
+        Top = 67
+        Width = 42
+        Height = 21
+        Caption = 'Login:'
+      end
+      object Label4: TLabel [2]
+        Left = 344
+        Top = 115
+        Width = 43
+        Height = 21
+        Caption = 'Senha'
+      end
+      object Label5: TLabel [3]
+        Left = 36
+        Top = 115
+        Width = 45
+        Height = 21
+        Caption = 'Status:'
+      end
+      inherited Panel1: TPanel
+        StyleElements = [seFont, seClient, seBorder]
+      end
+      object edtNome: TEdit
+        Left = 88
+        Top = 64
+        Width = 233
+        Height = 29
+        TabOrder = 1
+      end
+      object edtLogin: TEdit
+        Left = 392
+        Top = 64
+        Width = 191
+        Height = 29
+        TabOrder = 2
+      end
+      object edtSenha: TEdit
+        Left = 392
+        Top = 112
+        Width = 191
+        Height = 29
+        TabOrder = 3
+      end
+      object ToggleStatus: TToggleSwitch
+        Left = 112
+        Top = 118
+        Width = 78
+        Height = 23
+        TabOrder = 4
+      end
+    end
+    inherited CardPesquisa: TCard
+      StyleElements = [seFont, seClient, seBorder]
+      inherited pnlPesquisa: TPanel
+        StyleElements = [seFont, seClient, seBorder]
+        inherited Label1: TLabel
+          StyleElements = [seFont, seClient, seBorder]
+        end
+        inherited edtPesquisar: TEdit
+          StyleElements = [seFont, seClient, seBorder]
+        end
+        inherited btnPesquisar: TButton
+          OnClick = btnPesquisarClick
+        end
+      end
+      inherited pnlPesquisaBotoes: TPanel
+        StyleElements = [seFont, seClient, seBorder]
+      end
+      inherited pnlGrid: TPanel
+        StyleElements = [seFont, seClient, seBorder]
+        inherited DBGrid1: TDBGrid
+          DataSource = DataSource1
+          Columns = <
+            item
+              Expanded = False
+              FieldName = 'nome'
+              Title.Caption = 'Nome'
+              Width = 366
+              Visible = True
+            end
+            item
+              Expanded = False
+              FieldName = 'login'
+              Title.Caption = 'Login'
+              Width = 159
+              Visible = True
+            end
+            item
+              Expanded = False
+              FieldName = 'status'
+              Title.Caption = 'Status'
+              Visible = True
+            end>
+        end
+      end
+    end
+  end
+  inherited ImageList1: TImageList
+    Top = 176
+  end
+  inherited DataSource1: TDataSource
+    DataSet = dmUsuarios.cdsUsuarios
+  end
+end
