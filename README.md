@@ -1,7 +1,8 @@
 
 # Sistema Financeiro em Delphi
 
-![88cde651-377f-4644-b126-8d21d4cb0c65](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/ae0683a0-bdd7-485d-a538-abcc2e131ca8)
+![22cc4877-8300-45fd-87d7-9a4ee5743904](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/ada76fdd-bc38-469b-a1b3-ead0bd29abd6)
+
 
 Este é um sistema financeiro em Delphi que está em desenvolvimento. O objetivo principal é fornecer uma aplicação robusta para gerenciamento financeiro com operações CRUD básicas.
 
@@ -10,8 +11,8 @@ Este é um sistema financeiro em Delphi que está em desenvolvimento. O objetivo
 - **CRUD**: O sistema oferece operações básicas de CRUD (Criar, Ler, Atualizar, Excluir) para gerenciar dados financeiros.
 
 ## Como usar
-![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/b1a6c258-f307-4d63-9f70-94d8efb2b35a)
 
+![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/b1a6c258-f307-4d63-9f70-94d8efb2b35a)
 
 
 1. **Instalação**: Clone este repositório em sua máquina local.
