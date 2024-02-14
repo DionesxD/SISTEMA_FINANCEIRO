@@ -12,13 +12,13 @@ Este é um sistema financeiro em Delphi que está em desenvolvimento. O objetivo
 
 ## Como usar
 
-![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/b1a6c258-f307-4d63-9f70-94d8efb2b35a)
+   ![55c73af9-6f74-45cf-b0de-bee155a7205e](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/faddb661-c544-485b-a842-dd168896cec1)
 
 
 1. **Instalação**: Clone este repositório em sua máquina local.
 
    ```
-   git clone https://github.com/seu-usuario/SISTEMA-FINANCEIRO.git
+   git clone https://github.com/DionesxD/SISTEMA-FINANCEIRO.git
    ```
 
 2. **Configuração do Ambiente**: Certifique-se de ter o ambiente de desenvolvimento Delphi configurado corretamente.
@@ -27,8 +27,6 @@ Este é um sistema financeiro em Delphi que está em desenvolvimento. O objetivo
 
 4. **Observaçao**: Após executar o programa, vá na opçao *Cadastro* e depois *Usuário*. Clique em Pesquisar para que o programa puxe os registros do banco de dados.
    
-   ![55c73af9-6f74-45cf-b0de-bee155a7205e](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/faddb661-c544-485b-a842-dd168896cec1)
-
 
 ## Funcionamento dos Botões
 
