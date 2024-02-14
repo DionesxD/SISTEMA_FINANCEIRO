@@ -1,8 +1,7 @@
-Claro, vou te ajudar a criar um README para o seu projeto financeiro em Delphi. Aqui está um exemplo de como você pode estruturar o README:
-
----
 
 # Sistema Financeiro em Delphi
+
+![88cde651-377f-4644-b126-8d21d4cb0c65](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/ae0683a0-bdd7-485d-a538-abcc2e131ca8)
 
 Este é um sistema financeiro em Delphi que está em desenvolvimento. O objetivo principal é fornecer uma aplicação robusta para gerenciamento financeiro com operações CRUD básicas.
 
@@ -24,6 +23,11 @@ Este é um sistema financeiro em Delphi que está em desenvolvimento. O objetivo
 2. **Configuração do Ambiente**: Certifique-se de ter o ambiente de desenvolvimento Delphi configurado corretamente.
 
 3. **Execução**: Abra o projeto no Delphi e compile-o. Depois, execute a aplicação.
+
+4. **Observaçao**: Após executar o programa, vá na opçao *Cadastro* e depois *Usuário*. Clique em Pesquisar para que o programa puxe os registros do banco de dados.
+   
+   ![55c73af9-6f74-45cf-b0de-bee155a7205e](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/faddb661-c544-485b-a842-dd168896cec1)
+
 
 ## Funcionamento dos Botões
 
