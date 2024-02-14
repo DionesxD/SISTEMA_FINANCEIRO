@@ -37,7 +37,7 @@ Este é um sistema financeiro em Delphi que está em desenvolvimento. O objetivo
 ![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/ccd745c1-63cd-4464-a4ad-c6dac1c41698)
 
 - **Incluir**: Permite adicionar novos registros ao sistema financeiro.
-- 
+  
 ![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/552a455d-a32d-4eb4-b191-99a9a2ac2bc9)
 
 - **Salvar**: Salva as alterações realizadas nos registros.
