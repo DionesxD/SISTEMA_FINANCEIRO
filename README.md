@@ -13,21 +13,7 @@ Este é um sistema financeiro em Delphi que está em desenvolvimento. O objetivo
 ## Como usar
 ![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/b1a6c258-f307-4d63-9f70-94d8efb2b35a)
 
-![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/52b13d3d-c7eb-4be9-b56d-ff71daf1df15)
 
-![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/ccd745c1-63cd-4464-a4ad-c6dac1c41698)
-
-![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/91599ed6-8a78-4072-8ee1-bf8561e727e0)
-
-![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/889f0c8c-2706-4b18-9b57-b2df113d9505)
-
-![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/552a455d-a32d-4eb4-b191-99a9a2ac2bc9)
-
-![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/37f44f54-3d45-4056-97ff-d6ffffb869e5)
-
-![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/795a4717-4985-43e6-9260-0d72c8fcde69)
-
-![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/2758a78d-6eaa-43e4-b90f-45d6074930ce)
 
 1. **Instalação**: Clone este repositório em sua máquina local.
 
@@ -41,11 +27,31 @@ Este é um sistema financeiro em Delphi que está em desenvolvimento. O objetivo
 
 ## Funcionamento dos Botões
 
-- **Incluir**: Permite adicionar novos registros ao sistema financeiro.
-- **Alterar**: Permite modificar os registros existentes no sistema financeiro.
-- **Excluir**: Permite remover registros do sistema financeiro.
-- **Salvar**: Salva as alterações realizadas nos registros.
 - **Pesquisar**: Permite pesquisar registros com base em critérios específicos.
+  
+![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/52b13d3d-c7eb-4be9-b56d-ff71daf1df15)
+
+![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/ccd745c1-63cd-4464-a4ad-c6dac1c41698)
+
+- **Incluir**: Permite adicionar novos registros ao sistema financeiro.
+- 
+![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/552a455d-a32d-4eb4-b191-99a9a2ac2bc9)
+
+- **Salvar**: Salva as alterações realizadas nos registros.
+![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/37f44f54-3d45-4056-97ff-d6ffffb869e5)
+
+- **Alterar**: Permite modificar os registros existentes no sistema financeiro.
+  
+![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/91599ed6-8a78-4072-8ee1-bf8561e727e0)
+
+![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/889f0c8c-2706-4b18-9b57-b2df113d9505)
+
+- **Excluir**: Permite remover registros do sistema financeiro.
+  
+![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/795a4717-4985-43e6-9260-0d72c8fcde69)
+
+![image](https://github.com/DionesxD/SISTEMA_FINANCEIRO/assets/110851857/2758a78d-6eaa-43e4-b90f-45d6074930ce)
+
 - **Fechar**: Fecha a aplicação.
 
 ## Contribuição
